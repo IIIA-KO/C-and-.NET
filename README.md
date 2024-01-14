@@ -80,7 +80,8 @@ C# + .NET Framework
 
 Занадто довгі коментарі будемо визначати виходячи з даного числа - максимальної довжини коментаря.
 Ви вирішили абстрагувати фільтр у вигляді наступного інтерфейсу:
-```interface TextAnalyzer{
+```
+interface TextAnalyzer{
     Label processText(String text);
 }
 ```
